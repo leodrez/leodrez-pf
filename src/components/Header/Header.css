@@ -1,0 +1,21 @@
+.Header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header-cont {
+
+}
+
+.leodrez {
+  border: solid 1px #000;
+  height: 4vh;
+}
+
+.leodrez p {
+  padding: 5px 2vw;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
