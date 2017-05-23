@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from '../../containers/Nav/Nav.js';
 import './Header.css';
 
 class Header extends Component {
@@ -6,7 +7,7 @@ class Header extends Component {
     return (
       <div className="Header">
         <div className="Header-cont">
-          <i className="material-icons">&#xE5D2;</i>
+          <Nav />
         </div>
         <div className="leodrez">
           <p>Leodrez</p>
