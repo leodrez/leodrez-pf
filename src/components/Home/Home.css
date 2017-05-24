@@ -1,0 +1,30 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-cont {
+}
+
+.Home-cont img {
+  width: 88vw;
+  max-width: 650px;
+  height: auto;
+}
+
+.Home-txt {
+  font-weight: 900;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  line-height: 0.75;
+}
+
+.Home-txt p {
+  margin-top: -45px;
+}
+
+.w-text {
+  color: #fff;
+}
