@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import About from '../../components/About/About.js';
+import Contact from '../../components/Contact/Contact.js';
 
 class Body extends Component {
   render() {
     return (
       <div className="Body">
-        <About />
+        <Contact />
       </div>
     );
   }

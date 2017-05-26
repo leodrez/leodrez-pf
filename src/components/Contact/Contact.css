@@ -1,0 +1,34 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7vh;
+}
+
+.Contact-body {
+
+}
+
+.Body-img {
+  margin-bottom: -96px;
+}
+
+.Body-img img {
+  width: 88vw;
+  max-width: 500px;
+  height: auto;
+}
+
+.Body-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Body-cont h1 {
+  font-weight: 900;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  color: #fff;
+}
