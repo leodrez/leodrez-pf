@@ -10,7 +10,9 @@ class Header extends Component {
           <Nav />
         </div>
         <div className="leodrez">
-          <p>Leodrez</p>
+          <button className="L-button">
+            Leodrez
+          </button>
         </div>
       </div>
     );
