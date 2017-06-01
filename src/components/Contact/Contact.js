@@ -15,6 +15,14 @@ class Contact extends Component {
               Contact
             </h1>
           </div>
+          <div className="Buttons">
+            <button className="link-btn">
+              Links
+            </button>
+            <button className="message-btn">
+              Message Me
+            </button>
+          </div>
         </div>
       </div>
     );

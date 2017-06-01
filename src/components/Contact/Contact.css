@@ -32,3 +32,25 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+.Buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Buttons button {
+  width: 30vw;
+  max-width: 150px;
+  height: 2em;
+  border: solid 1px #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.link-btn {
+}
+
+.message-btn {
+}
