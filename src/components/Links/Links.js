@@ -5,7 +5,23 @@ class Links extends Component {
   render() {
     return (
       <div className="Links">
-        <h1>Links</h1> 
+        <ul className="Links-list">
+          <li>
+            <p>leodrezz@gmail.com</p>
+          </li>
+          <li>
+            <a href="#">Github</a>
+          </li>
+          <li>
+            <a href="#">Linkedin</a>
+          </li>
+          <li>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Facebook</a>
+          </li>
+        </ul>
       </div>
     );
   }
