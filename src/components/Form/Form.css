@@ -1,0 +1,15 @@
+.Message-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 0 0;
+}
+
+.Phone a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.Phone a:hover {
+  color: #000;
+}

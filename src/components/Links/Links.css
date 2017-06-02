@@ -19,10 +19,11 @@
 }
 
 .Links-list li a {
-  color: #000;
+  color: #aaa;
   font-weight: 200;
   text-decoration: none;
 }
 
 .Links-list li a:hover {
+  color: #000;
 }
