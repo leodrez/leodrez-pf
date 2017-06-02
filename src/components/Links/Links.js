@@ -7,9 +7,6 @@ class Links extends Component {
       <div className="Links">
         <ul className="Links-list">
           <li>
-            <p>leodrezz@gmail.com</p>
-          </li>
-          <li>
             <a href="#">Github</a>
           </li>
           <li>
