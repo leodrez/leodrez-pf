@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Links from '../Links/Links.js';
-import Form from '../Form/Form.js';
+import Message from '../Message/Message.js';
 import url from '../../images/img3.JPG';
 import './Contact.css';
 
@@ -14,7 +14,7 @@ class Contact extends Component {
     };
 
     this._getLinks = this._getLinks.bind(this);
-    this._getForm = this._getForm.bind(this);
+    this._getMessage = this._getMessage.bind(this);
     this._handleLinksClick = this._handleLinksClick.bind(this);
     this._handleMessageClick = this._handleMessageClick.bind(this);
 
@@ -23,10 +23,10 @@ class Contact extends Component {
   render() {
   
     let links = this._getLinks();
-    let form = this._getForm(); 
+    let message = this._getMessage(); 
 
     if (this.state.showForm) {
-      links = form;
+      links = message;
     }
 
     return (
@@ -62,9 +62,9 @@ class Contact extends Component {
     );
   }
 
-  _getForm() {
+  _getMessage() {
     return (
-      <Form />
+      <Message />
     );
   }
 

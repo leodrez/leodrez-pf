@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Form.css';
+import './Message.css';
 
-class Form extends Component {
+class Message extends Component {
   render() {
     return (
       <div className="Message-me">
@@ -16,4 +16,4 @@ class Form extends Component {
   }
 }
 
-export default Form
+export default Message
