@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 85vh;
   margin-top: -6vh;
 }
 
@@ -16,9 +17,6 @@
   font-size: 3.6em;
   text-transform: uppercase;
   line-height: 0.75;
-}
-
-.About-img {
 }
 
 .About-img img {
@@ -51,4 +49,23 @@
 
 .w-text {
   color: #fff;
+}
+
+@media only screen and (min-width: 1100px) {
+  .About-header {
+    margin-bottom: -110px; 
+  }
+
+  .About-header h1 {
+    font-size: 5em; 
+  }
+
+  .Cont-head h3 {
+    font-size: 2em;
+    margin: 1.5vh 0;
+  }
+
+  .Cont-body p {
+    font-size: 1em;
+  }
 }

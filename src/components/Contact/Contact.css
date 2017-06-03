@@ -3,10 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.Contact-body {
-
+  height: 85vh;
 }
 
 .Body-img {
@@ -53,8 +50,12 @@
   color: #fff;
 }
 
-.link-btn {
-}
+@media only screen and (min-width: 1100px) {
+  .Body-img {
+    margin-bottom: -130px; 
+  }
 
-.message-btn {
+  .Body-cont h1 {
+    font-size: 5em;
+  }
 }

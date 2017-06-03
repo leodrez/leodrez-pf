@@ -3,11 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 95vh;
   margin-top: -7vh;
-}
-
-.Projects-header {
-
 }
 
 .Projects-header h1 {
@@ -15,14 +12,6 @@
   font-size: 3.6em;
   text-transform: uppercase;
   line-height: 0.75;
-}
-
-.Projects-cont {
-
-}
-
-.Cont-img {
-
 }
 
 .Cont-img img {
@@ -45,5 +34,15 @@
 
 .b-text {
   font-weight: 700;
+}
+
+@media only screen and (min-width: 1100px) {
+  .Projects-header h1 {
+    font-size: 5em;
+  }
+
+  .Cont-body h3 {
+    font-size: 1.7em;
+  }
 }
 

@@ -3,9 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.Home-cont {
+  height: 85vh;
 }
 
 .Home-cont img {
@@ -27,4 +25,14 @@
 
 .w-text {
   color: #fff;
+}
+
+@media only screen and (min-width: 1100px) {
+  .Home-txt {
+    font-size: 5em;
+  }
+
+  .Home-txt p {
+    margin-top: -60px;
+  }
 }
