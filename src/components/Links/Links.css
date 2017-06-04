@@ -1,9 +1,11 @@
 .Links {
-  margin: 30px 0 -30px 0;
+  padding: 30px 0 0 0; 
+  margin-bottom: -10px;
 }
 
 .Links-list {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .Links-list li {

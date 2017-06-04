@@ -4,16 +4,10 @@
   justify-content: space-between;
 }
 
-.Header-cont {
-
-}
-
-.leodrez {
-}
-
-.leodrez button {
+.Btns button {
   width: 25vw;
-  height: 100%;
+  height: 110%;
+  margin: 0 5px 0 5px;
   border: solid 1px #000;
   max-width: 150px;
   font-family: 'Raleway', sans-serif;
@@ -23,7 +17,46 @@
   background-color: #fff;
 }
 
-.leodrez button:hover {
+.Btns button:hover {
   background-color: #000;
   color: #fff;
 }
+
+.About-btn {
+  display: none;
+}
+
+.Projects-btn {
+  display: none;
+}
+
+.Contact-btn {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .Header {
+    justify-content: space-around;
+  }
+  
+  .Btns button {
+    height: 140%;
+  }
+
+  .Header-nav {
+    display: none;
+  }
+
+  .About-btn {
+    display: initial; 
+  }
+
+  .Projects-btn {
+    display: initial;
+  }
+
+  .Contact-btn {
+    display: initial;
+  }
+}
+

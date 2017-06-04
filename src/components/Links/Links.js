@@ -7,16 +7,13 @@ class Links extends Component {
       <div className="Links">
         <ul className="Links-list">
           <li>
-            <a href="#">Github</a>
+            <a href="https://github.com/leodrez" target="_blank">Github</a>
           </li>
           <li>
-            <a href="#">Linkedin</a>
+            <a href="https://www.linkedin.com/in/leodrez/" target="_blank">Linkedin</a>
           </li>
           <li>
-            <a href="#">Twitter</a>
-          </li>
-          <li>
-            <a href="#">Facebook</a>
+            <a href="https://twitter.com/leodrez" target="_blank">Twitter</a>
           </li>
         </ul>
       </div>

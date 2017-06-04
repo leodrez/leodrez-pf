@@ -6,12 +6,21 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <div className="Header-cont">
+        <div className="Header-nav">
           <Nav />
         </div>
-        <div className="leodrez">
-          <button className="L-button">
+        <div className="Btns">
+          <button className="Leodrez-btn">
             Leodrez
+          </button>
+          <button className="About-btn">
+            About
+          </button>
+          <button className="Projects-btn">
+            Projects
+          </button>
+          <button className="Contact-btn">
+            Contact
           </button>
         </div>
       </div>
