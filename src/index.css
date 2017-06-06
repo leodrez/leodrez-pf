@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  overflow: hidden;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -12,16 +11,16 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-#header {
+.Header {
   flex: 0; 
 }
 
-#body {
+.Body {
   flex: 1;
   position: relative;
   overflow: auto;
 }
 
-#footer {
+.Footer {
   flex: 0;
 }
