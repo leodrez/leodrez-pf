@@ -5,7 +5,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="Home" id="home">
         <div className="Home-cont">
           <img src={ url } />
         </div>

@@ -30,7 +30,7 @@ class Contact extends Component {
     }
 
     return (
-      <div className="Contact">
+      <div className="Contact" id="contact">
         <div className="Contact-body">
           <div className="Body-img">
             <img src={ url } />
