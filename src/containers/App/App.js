@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import Body from '../../containers/Body/Body';
 import Footer from '../../components/Footer/Footer';
 import Menu from '../../components/Menu/Menu';
+import './App.css'
 
 class App extends Component {
   

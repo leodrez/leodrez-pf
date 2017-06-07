@@ -5,22 +5,10 @@ html {
 body {
   height: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-direction: column;
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
 
-.Header {
-  flex: 0; 
-}
-
-.Body {
-  flex: 1;
-  position: relative;
-  overflow: auto;
-}
-
-.Footer {
-  flex: 0;
-}

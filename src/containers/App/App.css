@@ -1,0 +1,24 @@
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Header {
+  min-width: 90vw;
+}
+
+.Body {
+  min-width: 80vw;
+}
+
+.Menu {
+  min-width: 90vw;
+}
+
+.Footer {
+  
+}

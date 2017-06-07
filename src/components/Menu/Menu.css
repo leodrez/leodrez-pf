@@ -1,9 +1,32 @@
-.Menu-body {
+.Menu {
+  height: 80vh;
+  max-height: 500px;
+  max-width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Menu-body {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
+  background-color: #000;
 }
 
 .Menu-body button {
+  color: #fff;
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Menu-body button:hover {
+  color: #aaa;
 }
