@@ -12,18 +12,26 @@ class Header extends Component {
           </button>
         </div>
         <div className="Btns">
+          <a href="#home">
           <button className="Leodrez-btn">
             Leodrez
           </button>
-          <button className="About-btn">
-            About
-          </button>
+          </a>
+          <a href="#about">
+            <button className="About-btn">
+              About
+            </button>
+          </a>
+          <a href="#projects">
           <button className="Projects-btn">
             Projects
           </button>
-          <button className="Contact-btn">
-            Contact
-          </button>
+          </a>
+          <a href="#contact">
+            <button className="Contact-btn">
+              Contact
+            </button>
+          </a>
         </div>
       </div>
     );

@@ -22,6 +22,10 @@
   color: #fff;
 }
 
+.Btns a {
+  text-decoration: none;
+}
+
 .About-btn {
   display: none;
 }
