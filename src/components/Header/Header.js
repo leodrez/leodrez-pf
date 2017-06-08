@@ -12,7 +12,7 @@ class Header extends Component {
           </button>
         </div>
         <div className="Btns">
-          <a href="#home">
+          <a className="L-btn" href="#home">
           <button className="Leodrez-btn">
             Leodrez
           </button>
