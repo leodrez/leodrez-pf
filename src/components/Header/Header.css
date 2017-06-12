@@ -10,7 +10,7 @@
 }
 
 .Header-nav {
-  padding: 35px 20px;
+  padding: 15px;
 }
 
 .Header-nav button {
@@ -19,13 +19,13 @@
 }
 
 .Btns {
-  padding: 35px 20px;
+  padding: 15px;
 }
 
 .Btns button {
   height: 5vh;
   max-height: 35px;
-  width: 25vw;
+  width: 30vw;
   max-width: 150px;
   border: solid 1px #000;
   font-family: 'Raleway', sans-serif;

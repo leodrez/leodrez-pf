@@ -1,5 +1,9 @@
 .Menu {
-  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +12,7 @@
 .Menu-body {
   height: 100vh;
   max-height: 500px;
-  width: 90%;
+  width: 90vw;
   max-width: 400px;
   display: flex;
   justify-content: center;
