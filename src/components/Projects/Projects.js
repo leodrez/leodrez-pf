@@ -12,7 +12,7 @@ class Projects extends Component {
         <div className="Projects-cont">
           <div className="Cont-img">
             <a href="https://olichangroot.herokuapp.com/">
-              <img src={ url } />
+              <img src={ url } alt="" />
             </a>
           </div>
           <div className="Cont-body">

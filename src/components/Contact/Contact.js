@@ -33,7 +33,7 @@ class Contact extends Component {
       <div className="Contact" id="contact">
         <div className="Contact-body">
           <div className="Body-img">
-            <img src={ url } />
+            <img src={ url } alt="" />
           </div>
           <div className="Body-cont">
             <h1>

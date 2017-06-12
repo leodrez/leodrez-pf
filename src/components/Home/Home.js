@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div className="Home" id="home">
         <div className="Home-cont">
-          <img src={ url } />
+          <img src={ url } alt="" />
         </div>
         <div className="Home-txt">
           <p><span className ="w-text">Software</span><br />
