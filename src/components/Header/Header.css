@@ -6,10 +6,11 @@
   right: 0;
   top: 0;
   background-color: #fff;
+  z-index: 4;
 }
 
 .Header-nav {
-  padding: 25px;
+  padding: 35px 20px;
 }
 
 .Header-nav button {
@@ -18,7 +19,7 @@
 }
 
 .Btns {
-  padding: 25px;
+  padding: 35px 20px;
 }
 
 .Btns button {
