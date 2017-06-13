@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Nav from '../../containers/Nav/Nav.js';
 import './Header.css';
 
 class Header extends Component {
@@ -8,7 +7,7 @@ class Header extends Component {
       <div className="Header">
         <div className="Header-nav">
           <button className="Menu-btn" onClick={ this.props._toggleMenu }>
-            <Nav />
+            <i className="material-icons">&#xE5D2;</i>
           </button>
         </div>
         <div className="Btns">
