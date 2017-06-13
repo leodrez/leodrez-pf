@@ -59,10 +59,12 @@
 @media only screen and (min-width: 768px) {
   .Header-nav {
     padding: 30px;
+    padding-bottom: 15px;
   }
   
   .Btns {
     padding: 30px;
+    padding-bottom: 15px;
   }
 }
 
