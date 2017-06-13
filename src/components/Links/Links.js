@@ -13,6 +13,9 @@ class Links extends Component {
             <a href="https://www.linkedin.com/in/leodrez/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </li>
           <li>
+            <a href="https://www.instagram.com/leodrezz/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </li>
+          <li>
             <a href="https://twitter.com/leodrez" target="_blank" rel="noopener noreferrer">Twitter</a>
           </li>
         </ul>

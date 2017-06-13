@@ -42,13 +42,32 @@
 
 .Cont-body p {
   margin: 0;
-  max-width: 400px;
+  max-width: 375px;
   font-size: 1em;
   font-weight: 200;
 }
 
 .w-text {
   color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .About-header {
+    margin-bottom: -120px;
+  } 
+
+  .About-header h1 {
+    font-size: 5.5em;
+  }
+  
+  .Cont-head h3 {
+    font-size: 2.5em;
+    margin: 25px;
+  }
+
+  .Cont-body p {
+    font-size: 1.3em;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
