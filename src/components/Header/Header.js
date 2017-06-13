@@ -7,7 +7,7 @@ class Header extends Component {
       <div className="Header">
         <div className="Header-nav">
           <button className="Menu-btn" onClick={ this.props._toggleMenu }>
-            <i className="material-icons">&#xE5D2;</i>
+            <i className="material-icons">{ this.props.icon }</i>
           </button>
         </div>
         <div className="Btns">

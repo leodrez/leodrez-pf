@@ -18,9 +18,16 @@ class App extends Component {
   }
 
   render() {
+  
+    let icon = "menu";
+
+    if (this.state.showMenu) {
+      icon = "clear";
+    }
+
     return (
       <div className="App">
-        <Header _toggleMenu={ this._toggleMenu } />
+        <Header _toggleMenu={ this._toggleMenu } icon={ icon } />
         { this.state.showMenu ? <Menu /> : <Body /> }
         <Footer />
       </div>
