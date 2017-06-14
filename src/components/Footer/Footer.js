@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <div className="Footer-cont">
-          <img src={logo} className="logo" alt="logo" />
+          <img src={ logo } className="logo" alt="logo" />
         </div>
       </div>
     );

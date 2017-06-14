@@ -1,0 +1,43 @@
+<svg width="304px" height="298px" viewBox="0 0 304 298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <defs>
+      <style>
+        #Page-1 {
+          stroke-dasharray: 2000;
+          stroke-dashoffset: 0;
+          animation: dash 5s linear forward;
+          -webkit-animation: dash 5s linear forward;
+          -o-animation: dash 5s linear forward;
+          -moz-animation: dash 5s linear forward;
+        }
+
+        @-webkit-keyframes dash {
+          from {
+            stroke-dashoffset: 2000;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+
+        #logo {
+
+        }
+
+        #Path-1 {
+  
+        }
+
+        #Path-2 {
+
+        }
+      </style>
+    </defs>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="logo" sketch:type="MSLayerGroup" transform="translate(2.000000, 3.000000)" stroke="#000000" stroke-width="3">
+            <path d="M78,2.84217094e-14 L0,239 L57,293 L212,293 L184,239 L58,239 L120,51 L78,2.84217094e-14 Z" id="Path-1" sketch:type="MSShapeGroup"></path>
+            <path d="M224,293 L160,165 L142,230 L72,230 L124,70 L167,36 L299,293 L224,293 Z" id="Path-2" sketch:type="MSShapeGroup"></path>
+            <polygon id="Triangle" sketch:type="MSShapeGroup" transform="translate(255.500000, 167.500000) scale(1, -1) translate(-255.500000, -167.500000) " points="255 146 277 189 234 189 "></polygon>
+        </g>
+    </g>
+</svg>
