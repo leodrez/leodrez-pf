@@ -7,16 +7,16 @@ class Menu extends Component {
       <div className="Menu">
         <div className="Menu-body">
           <a href="#home">
-            <button>Leodrez</button>
+            <button onClick={ this.props._toggleMenu }>Leodrez</button>
           </a>
           <a href="#about">
-            <button>About</button>
+            <button onClick={ this.props._toggleMenu }>About</button>
           </a>
           <a href="#projects">
-            <button>Projects</button>
+            <button onClick={ this.props._toggleMenu }>Projects</button>
           </a>
           <a href="#contact">
-            <button>Contact</button>
+            <button onClick={ this.props._toggleMenu }>Contact</button>
           </a>
         </div>
         <div className="Menu-footer">
