@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../logo-lg.svg';
+import logo from '../../leodrez-logo.svg';
 import './Footer.css'
 
 class Footer extends Component {

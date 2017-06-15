@@ -28,15 +28,13 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header _toggleMenu={ this._toggleMenu } icon={ icon } />
-        { this.state.showMenu ? <Menu /> : <Body /> }
-        <Footer />
+        <LoadScreen />
       </div>
     );
   }
   
   _toggleMenu() {
-      this.setState({ showMenu: !this.state.showMenu })
+    this.setState({ showMenu: !this.state.showMenu })
   }
 
 }

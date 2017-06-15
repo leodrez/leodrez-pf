@@ -1,34 +1,28 @@
 <svg width="304px" height="298px" viewBox="0 0 304 298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <defs>
       <style>
-        #Page-1 {
-          stroke-dasharray: 2000;
-          stroke-dashoffset: 0;
-          animation: dash 5s linear forward;
-          -webkit-animation: dash 5s linear forward;
-          -o-animation: dash 5s linear forward;
-          -moz-animation: dash 5s linear forward;
-        }
-
-        @-webkit-keyframes dash {
-          from {
-            stroke-dashoffset: 2000;
-          }
-          to {
-            stroke-dashoffset: 0;
-          }
-        }
-
-        #logo {
-
-        }
-
         #Path-1 {
-  
+          stroke-dasharray: 950;
+          stroke-dashoffset: 950;
+          animation: offset 2s linear forwards;
         }
 
         #Path-2 {
+          stroke-dasharray: 900;
+          stroke-dashoffset: 900;
+          animation: offset 2s linear forwards;
+        }
 
+        #Triangle {
+          stroke-dasharray: 150;
+          stroke-dashoffset: 150;
+          animation: offset 2s linear forwards;
+        }
+        
+        @keyframes offset {
+          to {
+            stroke-dashoffset: 0;
+          }
         }
       </style>
     </defs>
