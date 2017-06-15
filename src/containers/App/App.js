@@ -33,9 +33,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        { this.state.showLoadScreen ? <LoadScreen /> : <Header _toggleMenu={ this._toggleMenu } icon={ icon } /> }
+        { this.state.showLoadScreen ? null : <Header _toggleMenu={ this._toggleMenu } icon={ icon } /> }
         { this.state.showLoadScreen ? <LoadScreen /> : this.state.showMenu ? <Menu _toggleMenu={ this._toggleMenu }/> : <Body /> }
-        { this.state.showLoadScreen ? <LoadScreen /> : <Footer /> }
+        { this.state.showLoadScreen ? null : <Footer /> }
       </div>
     );
   }
