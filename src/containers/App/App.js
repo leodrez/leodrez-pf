@@ -12,12 +12,17 @@ class App extends Component {
     super();
 
     this.state = {
-      showMenu: false
+      showMenu: false,
+      showLoadScreen: true
     }
     
     this._toggleMenu = this._toggleMenu.bind(this);
   }
 
+  componentDidMount() {
+    setTimeout(() => this.setState({ showLoadScreen: false }), 2800);
+  }
+  
   render() {
   
     let icon = "menu";
@@ -28,7 +33,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <LoadScreen />
+        { this.state.showLoadScreen ? <LoadScreen /> : <Header _toggleMenu={ this._toggleMenu } icon={ icon } /> }
+        { this.state.showLoadScreen ? <LoadScreen /> : this.state.showMenu ? <Menu /> : <Body /> }
+        { this.state.showLoadScreen ? <LoadScreen /> : <Footer /> }
       </div>
     );
   }
