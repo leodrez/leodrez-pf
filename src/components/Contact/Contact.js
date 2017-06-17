@@ -1,34 +1,9 @@
 import React, { Component } from 'react';
-import Links from '../Links/Links.js';
-import Message from '../Message/Message.js';
 import url from '../../images/img3.JPG';
 import './Contact.css';
 
 class Contact extends Component {
-  
-  constructor() {
-    super();
-
-    this.state = {
-      showForm: false
-    };
-
-    this._getLinks = this._getLinks.bind(this);
-    this._getMessage = this._getMessage.bind(this);
-    this._handleLinksClick = this._handleLinksClick.bind(this);
-    this._handleMessageClick = this._handleMessageClick.bind(this);
-
-  }
-
   render() {
-  
-    let links = this._getLinks();
-    let message = this._getMessage(); 
-
-    if (this.state.showForm) {
-      links = message;
-    }
-
     return (
       <div className="Contact" id="contact">
         <div className="Contact-body">
@@ -40,42 +15,33 @@ class Contact extends Component {
               Contact
             </h1>
           </div>
-          <div className="Buttons">
-            <button className="link-btn" onClick={ this._handleLinksClick }>
-              Links
-            </button>
-            <button className="message-btn" onClick={ this._handleMessageClick }>
-              Message Me
-            </button>
+        </div>
+        <div className="Contact-info">
+          <div className="Contact-p">
+            <p>
+              I’m always interested in working on new projects.
+              Contact me if you would like to work together or just say hi.
+            </p>
           </div>
-          <div className="Body-data">
-            { links }
+          <div className="Info-pm">
+            <a href="mailto:leodrezz@gmail.com">leodrezz@gmail.com</a>
+            <a href="tel:+1-939-232-3881">1 (939) 232-3881</a>
+          </div>
+        </div>
+        <div className="Social">
+          <div className="Social-title">
+            <h3>Social</h3>
+          </div>
+          <div className="Links">
+            <a href="">Github</a>
+            <a href="">Linkedin</a>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
           </div>
         </div>
       </div>
     );
   }
-  
-  _getLinks() {
-    return (
-      <Links />
-    );
-  }
-
-  _getMessage() {
-    return (
-      <Message />
-    );
-  }
-
-  _handleLinksClick() {
-    this.setState({ showForm: false })
-  }
-
-  _handleMessageClick() {
-    this.setState({ showForm: true })
-  }
-
 }
 
 export default Contact;

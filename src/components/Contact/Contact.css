@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .Body-img {
@@ -29,27 +30,55 @@
   color: #fff;
 }
 
-.Buttons {
+.Contact-info {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  width: 88vw;
+  max-width: 500px;
 }
 
-.Buttons button {
-  height: 5vh;
-  max-height: 35px;
-  width: 35vw;
-  max-width: 150px;
-  border: solid 1px #000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+.Contact-p {
+  align-self: flex-start;
+}
+
+.Contact-p p {
+  margin: 0;
+  max-width: 375px;
   font-size: 1em;
-  background-color: #fff;
+  font-weight: 200; 
 }
 
-.Buttons button:hover {
-  background-color: #000;
-  color: #fff;
+.Info-pm {
+  display: flex;
+  align-self: flex-end;
 }
+
+.Info-pm a {}
+
+.Social {
+  display: flex;
+  flex-direction: column;
+  width: 88vw;
+  max-width: 500px;
+}
+
+.Social-title {
+  display: flex;
+}
+
+.Social-title h3 {
+  align-self: flex-start;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.Links {
+  display: flex;
+  align-self: flex-end;
+}
+
+.Links a {}
 
 @media only screen and (min-width: 768px) {
   .Body-img {
@@ -71,13 +100,5 @@
 
   .Body-cont h1 {
     font-size: 5.7em;
-  }
-
-  .Buttons {
-    margin-top: -50px;
-  }
-  
-  .Links {
-    padding: 0; 
   }
 }
