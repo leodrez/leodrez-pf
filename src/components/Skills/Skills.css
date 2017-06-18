@@ -1,0 +1,73 @@
+.Skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+}
+
+.Body-img {
+  margin-bottom: -85px !important;
+}
+
+.Body-img img {
+  width: 88vw;
+  max-width: 500px;
+  height: auto;
+}
+
+.Body-head h1 {
+  font-weight: 900;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 0.75;
+}
+
+.b-text {
+  font-weight: 900 !important;
+  color: #000;
+}
+
+.Development {
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Design {
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.What-i-do {
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Body-cont h3 {
+  align-self: flex-start;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 20px 0 20px 0;
+}
+
+.Body-cont p {
+  align-self: flex-end;
+  width: 65%;
+  max-width: 375px;
+  font-size: 1em;
+  font-weight: 200;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1100) {}
