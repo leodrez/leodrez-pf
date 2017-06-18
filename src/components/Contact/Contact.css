@@ -1,7 +1,7 @@
 .Contact {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
   width: 100vw;
@@ -29,6 +29,7 @@
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 0;
+  line-height: 0.75;
 }
 
 .Contact-info {
@@ -40,7 +41,7 @@
 
 .Contact-p {
   align-self: flex-start;
-  width: 50%;
+  width: 65%;
 }
 
 .Contact-p p {
