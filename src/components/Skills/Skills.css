@@ -68,6 +68,41 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .Body-head h1 {
+    font-size: 5.5em;
+    margin-bottom: 15px;
+  }
 
-@media only screen and (min-width: 1100) {}
+  .Body-cont h3 {
+    font-size: 2em;
+  }
+}
+
+
+@media only screen and (min-width: 1100) {
+  .Body-head h1 {
+    font-weight: 900;
+    font-size: 3.6em;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0.75;
+  }
+  .Body-cont h3 {
+    align-self: flex-start;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 20px 0 20px 0;
+  }
+
+  .Body-cont p {
+    align-self: flex-end;
+    width: 65%;
+    max-width: 375px;
+    font-size: 1em;
+    font-weight: 200;
+    margin: 0;
+  }
+}
+
