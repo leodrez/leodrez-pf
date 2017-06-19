@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 140vh;
+  height: 120vh;
   width: 100vw;
 }
 
@@ -39,14 +39,6 @@
 }
 
 .Design {
-  width: 88vw;
-  max-width: 750px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.What-i-do {
   width: 88vw;
   max-width: 750px;
   display: flex;
@@ -99,10 +91,6 @@
   }
 
   .Design {
-    max-width: 700px;
-  }
-
-  .What-i-do {
     max-width: 700px;
   }
 }

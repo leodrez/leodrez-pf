@@ -20,11 +20,13 @@ class About extends Component {
             <h3>About</h3>
           </div>
           <div className="Cont-body">
-            <p>My name is Leonardo Andres Calderón, I’m a 
-            Full Stack Developer with a Marketing and Sales background. 
-            Mainly self taught and bootcamp graduate.
-            Creative solution provider as freelance developer. 
-            Give me a chance to bring your ideas to life.</p>
+            <p>
+              My name is Leonardo Andres Calderón, I’m a Software 
+              Developer with a Marketing and Sales background. 
+              Focused mainly on web based projects, from initial 
+              design to final development. Creative solution provider as 
+              freelance developer. Give me a chance to bring your ideas to life.
+            </p>
           </div>
         </div>
       </div>

@@ -19,26 +19,18 @@ class Skills extends Component {
           <div className="Development">
             <h3>Development</h3>
             <p>
+              From fancy emails and landing pages to full scale web apps.
               Software development using the latest technologies 
               and best practices on the market to make your dream 
-              product a reality.
+              product a reality. 
             </p>
           </div>
           <div className="Design">
             <h3>Design</h3>
             <p>
-              UX, UI, Web, App and e-mail design. Custom built 
+              UX, UI, Web, Mobile and professional e-mail design. Made
               with your customers in mind to reach the best user 
               experience possible.
-            </p>
-          </div>
-          <div className="What-i-do">
-            <h3>What can I do?</h3>
-            <p>
-              Basically I can design and build software that lives 
-              on the web, from websites and web apps to  landing pages.
-               Oh and those fancy emails that companies send you?
-               I can make those too. 
             </p>
           </div>
         </div>
