@@ -36,6 +36,7 @@
   display: flex;
   flex-direction: column;
   width: 88vw;
+  max-width: 500px;
 }
 
 .Contact-p {
@@ -139,6 +140,7 @@
 
   .Body-cont h1 {
     font-size: 5.7em;
+    margin-bottom: 35px;
   }
 
   .Social-title h3 {
