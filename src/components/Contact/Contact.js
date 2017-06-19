@@ -33,10 +33,10 @@ class Contact extends Component {
             <h3>Social</h3>
           </div>
           <div className="Links">
-            <a href="">Github</a>
-            <a href="">Linkedin</a>
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
+            <a href="https://github.com/leodrez" target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="https://www.linkedin.com/in/leodrez/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a href="https://www.instagram.com/leodrezz/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://twitter.com/leodrez" target="_blank" rel="noopener noreferrer">Twitter</a>
           </div>
         </div>
       </div>
