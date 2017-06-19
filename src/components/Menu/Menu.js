@@ -12,6 +12,9 @@ class Menu extends Component {
           <a href="#about">
             <button onClick={ this.props._toggleMenu }>About</button>
           </a>
+          <a href="#skills">
+            <button onClick={ this.props._toggleMenu }>Skills</button>
+          </a>
           <a href="#projects">
             <button onClick={ this.props._toggleMenu }>Projects</button>
           </a>
