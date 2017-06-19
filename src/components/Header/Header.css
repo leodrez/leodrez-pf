@@ -48,6 +48,10 @@
   display: none;
 }
 
+.Skills-btn {
+  display: none;
+}
+
 .Projects-btn {
   display: none;
 }
@@ -90,6 +94,10 @@
 
   .About-btn {
     display: initial; 
+  }
+
+  .Skills-btn {
+    display: initial;
   }
 
   .Projects-btn {
