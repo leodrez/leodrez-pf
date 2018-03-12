@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import url from '../../images/img3.JPG';
+import logo from '../../leodrez-logo.svg';
 import './Contact.css';
 
 class Contact extends Component {
@@ -24,7 +25,7 @@ class Contact extends Component {
             </p>
           </div>
           <div className="Info-pm">
-            <a href="mailto:leodrezz@gmail.com">leodrezz@gmail.com</a>
+            <a href="mailto:me@leonardocalderon.com">me@leonardocalderon.com</a>
             <a href="tel:+1-939-232-3881">1 (939) 232-3881</a>
           </div>
         </div>
@@ -38,6 +39,11 @@ class Contact extends Component {
             <a href="https://www.instagram.com/leodrezz/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <a href="https://twitter.com/leodrez" target="_blank" rel="noopener noreferrer">Twitter</a>
           </div>
+        </div>
+        <div className="Logo">
+          <a href="#">
+            <img src={ logo } className="logo-svg" alt="logo" />
+          </a>
         </div>
       </div>
     );

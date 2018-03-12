@@ -1,40 +1,15 @@
 import React, { Component } from 'react';
+
 import './Header.css';
+import url from '../../leodrez-logo.svg';
 
 class Header extends Component {
   render() {
     return (
-      <div className="Header">
-        <div className="Header-nav">
-          <button className="Menu-btn" onClick={ this.props._toggleMenu }>
-            <i className="material-icons">{ this.props.icon }</i>
-          </button>
-        </div>
-        <div className="Btns">
-          <a className="L-btn" href="#home">
-          <button className="Leodrez-btn">
-            Leodrez
-          </button>
-          </a>
-          <a href="#about">
-            <button className="About-btn">
-              About
-            </button>
-          </a>
-          <a href="#skills">
-            <button className="Skills-btn">
-              Skills
-            </button>
-          </a>
-          <a href="#projects">
-          <button className="Projects-btn">
-            Projects
-          </button>
-          </a>
-          <a href="#contact">
-            <button className="Contact-btn">
-              Contact
-            </button>
+      <div className={"Header" +  " " + this.props.hideClass}>
+        <div className="lc">
+          <a href="#">
+            <h2 onClick={ this.props._toggleMenu }>LC</h2>
           </a>
         </div>
       </div>

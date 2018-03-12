@@ -1,6 +1,7 @@
 .Header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   left: 0;
   right: 0;
@@ -9,103 +10,20 @@
   z-index: 4;
 }
 
-.Header-nav {
-  padding: 15px;
+.hide {
+  top: -10vh !important;
 }
 
-.Header-nav button {
-  border: none;
-  background-color: inherit;
+.lc {
+  padding-left: 20px;
 }
 
-.Btns {
-  padding: 15px;
+.lc h2 {
+  border: 3px solid #000;
+  padding: 5px;
 }
 
-.Btns button {
-  height: 5vh;
-  max-height: 35px;
-  width: 30vw;
-  max-width: 150px;
-  border: solid 1px #000;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-  text-transform: uppercase;
-  background-color: inherit;
+.lc a {
+  color: #000;
+  text-decoration: underline #BBB;
 }
-
-.Btns button:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-.Btns a {
-  text-decoration: none;
-}
-
-.About-btn {
-  display: none;
-}
-
-.Skills-btn {
-  display: none;
-}
-
-.Projects-btn {
-  display: none;
-}
-
-.Contact-btn {
-  display: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .Header-nav {
-    padding: 30px;
-    padding-bottom: 15px;
-  }
-  
-  .Btns {
-    padding: 30px;
-    padding-bottom: 15px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .Header-nav {
-    display: none;
-  }
-
-  .Btns {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .L-btn {
-    margin-right: auto;
-  }
-
-  .Btns button {
-    margin: 0.3em;
-    font-size: 1.1em;
-  }
-
-  .About-btn {
-    display: initial; 
-  }
-
-  .Skills-btn {
-    display: initial;
-  }
-
-  .Projects-btn {
-    display: initial; 
-  }
-
-  .Contact-btn {
-    display: initial; 
-  }
-}
-

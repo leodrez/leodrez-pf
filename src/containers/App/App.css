@@ -11,6 +11,10 @@
   min-width: 100%;
 }
 
+.hide {
+  top: -5vh;
+}
+
 .Body {
   min-width: 80vw;
 }

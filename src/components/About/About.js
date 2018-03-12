@@ -21,11 +21,11 @@ class About extends Component {
           </div>
           <div className="Cont-body">
             <p>
-              My name is Leonardo Andres Calderón, I’m a Software 
-              Developer with a Marketing and Sales background. 
-              Focused mainly on web based projects, from initial 
+              My name is Leonardo Andres Calderón, I’m a Full Stack Software 
+              Developer and Web Designer with a Marketing and Sales background. 
+              Focused mainly on web based projects and applications, from initial 
               design to final development. Creative solution provider as 
-              freelance developer. Give me a chance to bring your ideas to life.
+              freelance developer and web designer. Give me a chance to bring your ideas to life.
             </p>
           </div>
         </div>

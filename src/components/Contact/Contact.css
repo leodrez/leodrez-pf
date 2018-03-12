@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
 }
 
@@ -104,6 +104,15 @@
 
 .Links a:hover {
   color: #000;
+}
+
+.Logo {
+  padding-top: 30px;
+}
+
+.logo-svg {
+  width: 5vh;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
