@@ -46,7 +46,7 @@
 
 .Contact-p p {
   font-size: 1em;
-  font-weight: 200; 
+  font-weight: 200;
   margin: 20px 0 20px 0;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .Info-pm a {
-  color: #BBB;
+  color: #bbb;
   text-decoration: none;
   margin: 5px;
   font-weight: 300;
@@ -95,11 +95,11 @@
 }
 
 .Links a {
-  color: #BBB;
+  color: #bbb;
   text-decoration: none;
   margin: 5px;
   font-weight: 300;
-  border-bottom: solid 1px #BBB;
+  border-bottom: solid 1px #bbb;
 }
 
 .Links a:hover {
@@ -127,7 +127,7 @@
   .Social-title h3 {
     font-size: 2.5em;
     margin: 30px 0 30px 0;
-   }
+  }
 
   .Contact-p p {
     font-size: 1.3em;
@@ -144,8 +144,17 @@
 }
 
 @media only screen and (min-width: 1100px) {
+  .Contact {
+    margin: 80px 0;
+    margin-top: 160px;
+  }
+
+  .Social {
+    margin: 40px 0;
+  }
+
   .Body-img {
-    margin-bottom: -150px; 
+    margin-bottom: -150px;
   }
 
   .Body-cont h1 {
@@ -156,7 +165,7 @@
   .Social-title h3 {
     font-size: 2em;
     margin: 0 0 10px 0;
-   }
+  }
 
   .Contact-p p {
     font-size: 1em;

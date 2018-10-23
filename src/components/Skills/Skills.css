@@ -61,6 +61,7 @@
   font-size: 1em;
   font-weight: 200;
   margin: 0;
+  line-height: 1.5;
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,8 +76,11 @@
   }
 }
 
-
 @media only screen and (min-width: 1100px) {
+  .Skills {
+    margin: 160px 0 80px 0;
+  }
+
   .Body-head h1 {
     font-size: 5.7em;
     margin-bottom: 35px;
@@ -94,4 +98,3 @@
     max-width: 700px;
   }
 }
-

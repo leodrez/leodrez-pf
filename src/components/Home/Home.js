@@ -10,8 +10,8 @@ class Home extends Component {
           <img src={ url } alt="" />
         </div>
         <div className="Home-txt">
-          <p><span className ="w-text">Software</span><br />
-          Developer</p>
+          <p><span className ="w-text">Leonardo</span><br />
+          Calderon</p>
         </div>
       </div>
     );

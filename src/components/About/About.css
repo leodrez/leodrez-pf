@@ -5,11 +5,13 @@
   align-items: center;
   height: 100vh;
   margin-top: -6vh;
+  margin: 80px 0;
 }
 
 .About-header {
   margin-bottom: -80px;
   z-index: 3;
+  text-align: center
 }
 
 .About-header h1 {
@@ -37,7 +39,6 @@
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2em;
-  margin: 10px;
 }
 
 .Cont-body p {
@@ -45,6 +46,7 @@
   max-width: 375px;
   font-size: 1em;
   font-weight: 200;
+  line-height: 1.5;
 }
 
 .w-text {
@@ -54,12 +56,12 @@
 @media only screen and (min-width: 768px) {
   .About-header {
     margin-bottom: -120px;
-  } 
+  }
 
   .About-header h1 {
     font-size: 5.5em;
   }
-  
+
   .Cont-head h3 {
     font-size: 2.5em;
     margin: 25px;
@@ -71,12 +73,16 @@
 }
 
 @media only screen and (min-width: 1100px) {
+  .About {
+    margin: 80px 0;
+  }
+
   .About-header {
-    margin-bottom: -125px; 
+    margin-bottom: -125px;
   }
 
   .About-header h1 {
-    font-size: 5.7em; 
+    font-size: 5.7em;
   }
 
   .Cont-head h3 {
